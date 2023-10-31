@@ -82,5 +82,6 @@ print(duplicate_ratings)
 users_with_multiple_ratings = duplicate_ratings[duplicate_ratings['count'] > 1]
 
 # Display the users with multiple ratings for the same movie
+# None appear to have duplicates
 print(users_with_multiple_ratings)
 
